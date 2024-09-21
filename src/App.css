@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  background-color: #fff;
+  color: black;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0 3px 4px #0000000a;
+}
+
+
+.left {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.centernav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bars {
+  font-size: 25px;
+  color: #21941d;
+
+  display: none;
+}
+
+.tick {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.logo {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.log {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 0px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #21941d;
+}
+
+.sign {
+  background-color: #21941d;
+  color: white;
+  padding: 10px;
+  width: 80px;
+  border: 1px solid #21941d;
+  border-radius: 5px;
+}
