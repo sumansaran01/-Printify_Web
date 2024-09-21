@@ -44,7 +44,7 @@ To install and run this project locally, add the following commands in your term
 
 ## Website Demo
 ```bash
-   ``
+   `https://printify-web.vercel.app/`
 ```
 
 
